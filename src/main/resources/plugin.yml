@@ -1,0 +1,15 @@
+name: LittlePeople
+version: '${project.version}'
+main: studio.thelpro.littlepeople.LittlePeople
+author: TheLPro
+api-version: '1.20'
+description: Summon cute little people on your Minecraft server for decoration!
+commands:
+  summonperson:
+    description: Summon a custom minion! - /summonperson help for more!
+    usage: /<command> <type> <name>
+    aliases: smnper
+permissions:
+  lip.spawn:
+    description: Permission to spawn a custom minion.
+    default: true
